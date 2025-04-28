@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Epic Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<div class="center">
+  <button id="mainButton" class="glow-button">Enter the Future</button>
+</div>
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Get Ready!</h2>
+  </div>
+</div>
+
+<script src="particles.min.js"></script>
+<script src="script.js"></script>
+<script>
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js loaded - pro version');
+});
+</script>
+</body>
+</html>

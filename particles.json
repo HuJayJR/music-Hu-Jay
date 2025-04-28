@@ -1,0 +1,29 @@
+{
+  "particles": {
+    "number": {
+      "value": 120,
+      "density": {
+        "enable": true,
+        "value_area": 1000
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "opacity": {
+      "value": 0.15
+    },
+    "size": {
+      "value": 3
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.6,
+      "direction": "none",
+      "out_mode": "out"
+    }
+  }
+}

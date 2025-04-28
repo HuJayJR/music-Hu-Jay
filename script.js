@@ -6,6 +6,6 @@ button.addEventListener('click', () => {
   popup.style.display = 'flex';
   popup.classList.add('active');
   setTimeout(() => {
-      window.location.href = 'https://example.com';
+      window.location.href = 'https://discord.gg/4nyPNqhz8b';
   }, 3000);
 });
